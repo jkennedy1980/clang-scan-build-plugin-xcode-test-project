@@ -23,6 +23,17 @@
     [d retain];
     [d retain];
 
+    // NOW WITH MORE COPIED CODE FOR CPD TO FIND!!!
+    NSArray * items = [NSArray arrayWithObjects:@"one", @"two", @"three", @"four", @"five", @"six", nil];
+    NSMutableString *output = [NSMutableString string];
+    for( NSString* item in items ){
+        if( [item length] > 3 ){
+            [output appendFormat:@"%@<--->",item];
+        }else{
+            [output appendFormat:@"%@<->",item];
+        }
+    }
+    NSLog(@"HERE IS A WEIRD STRING: %@", output );
 }
 
 -(void) shiboobidyPartDuex{
@@ -33,6 +44,19 @@
     [d retain];
     [d retain];
     [d retain];
+    
+    
+    // NOW WITH MORE COPIED CODE FOR CPD TO FIND!!!
+    NSArray * items = [NSArray arrayWithObjects:@"one", @"two", @"three", @"four", @"five", @"six", nil];
+    NSMutableString *output = [NSMutableString string];
+    for( NSString* item in items ){
+        if( [item length] > 3 ){
+            [output appendFormat:@"%@<--->",item];
+        }else{
+            [output appendFormat:@"%@<->",item];
+        }
+    }
+    NSLog(@"HERE IS A WEIRD STRING: %@", output );
 }
 
 @end
